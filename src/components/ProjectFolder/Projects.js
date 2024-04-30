@@ -1,8 +1,5 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-// import AmastoreVideo2 from '../../assets/AmastoreVideo2.mp4'
-// import CoinDuckoVideo from '../../assets/CoinDuckoVideo.mp4'
-//  import GTBank_APP from '../../assets/GTBank_APP.mp4'
  import GTphoto from '../../assets/GTphoto.png'
 import Porfolioproject from './Porfolioproject'
 import amastoreImage from '../../assets/amastoreImage.png'
