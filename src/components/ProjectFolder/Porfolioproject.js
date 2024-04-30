@@ -25,7 +25,7 @@ const Porfolioproject = () => {
 <div className='   first-line: p-5 justify-center items-center m-auto  bg-opacity-100 rounded '>
 
 <Fade  cascade damping={0.1} fraction={0.5}>
-   <h1 className=' text-xl md:text-4xl font-[LexendZetta] font-semibold  text-center md:text-start justify-center items-center   text-white' id='text-black' >Porfolio Website</h1>
+   <h1 className=' text-xl md:text-4xl font-[LexendZetta] font-semibold  text-center md:text-start justify-center items-center   text-white' id='text-black' >Portfolio Website</h1>
    
    <hr id='titleLine' className='w-[220px] justify-center items-center m-auto mt-2 opacity-30 md:item-start md:justify-start md:m-0 md:mt-4'/>
    <div className='text-center md:text-start'>
