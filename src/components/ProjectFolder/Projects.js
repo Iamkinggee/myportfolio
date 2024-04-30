@@ -22,7 +22,7 @@ const Projects = () => {
 <div >
 
 
- {/* <ProjectCard title='Portfolio Website' techtools='Javascript, Tailwind CSS, React.js' discription='This is my Portfolio Website ' viewcodebutton='View code' viewcodelink={'https://github.com/Iamkinggee/Coinducko.git'}  image={<video  autoPlay loop muted loading='lazy' src={PortfolioVideo} alt="/" className='object-contain h-[200px]  m-auto w-[300px] md:h-[350px] md:w-[500px] ' />}/> */}
+
 
 
 <div >
