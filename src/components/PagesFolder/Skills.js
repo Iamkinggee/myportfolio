@@ -1,6 +1,30 @@
 import React from 'react'
 import G2 from '../../assets/G2.gif'
-import { Fade  } from "react-awesome-reveal";
+import duck from '../../assets/duck.png'
+import html from '../../assets/html.png'
+import css from '../../assets/css.png'
+import node from '../../assets/node.png'
+import mongo from '../../assets/mongo.png'
+import react from '../../assets/react.png'
+import ts from '../../assets/ts.png'
+import tailwind from '../../assets/tailwind.png'
+import ex from '../../assets/ex.png'
+import js from '../../assets/js.png'
+import rest from '../../assets/rest.png'
+import git from '../../assets/git.png'
+import github from '../../assets/github.png'
+import fire from '../../assets/fire.png'
+import appwrite from '../../assets/appwrite.png'
+import figma from '../../assets/figma.png'
+import ps from '../../assets/ps.png'
+import ai from '../../assets/ai.png'
+import post from '../../assets/post.png'
+
+
+
+import { Fade,Flip,Bounce,Hinge,JackInTheBox,Roll,rubberBand ,heartBeat } from "react-awesome-reveal";
+import SkillsIcons from './SkillsCard';
+import SkillsCard from './SkillsCard';
 
 
 
@@ -24,25 +48,75 @@ const Skills = () => {
          pt-20
          ' id='text-title'>TechStack</h1>
      
-            <p className='pb-2 py-2 text-start  text-white font-[LexendZetta] md:text-[15px] text-[12px]'>I'm Proficient in but, <br /> not limited to these   Technologies.</p>
+            <p className='pb-2 py-2 md:text-start  text-white font-[LexendZetta] text-center md:text-[15px] text-[12px]'>I'm Proficient in but  not <br /> limited to these   Technologies.</p>
             </Fade >
         <div className='flex  pt-10 gap-10 pb-5 font-[LexendZetta]  font-light  text-blue-500 text-[15px] ' id='text-blue' >
             <div >
-            <Fade  cascade damping={0.1 } fraction={0.5}>
-                <li>HTML</li>    
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>TypeScript</li>
-                <li>React JS</li>
-                <li>React Native</li>
-                <li>Tailwind CSS</li>
-                <li>Git & GitHub</li>
-                <li>UI/UX</li> 
-                <li>Wordpress</li>
-                <li>BootStrap</li>
-                <li>Adobe Photoshop</li>
-                <li>Adobe Illustrator</li> 
-                </Fade >       
+            {/* <Fade  cascade damping={0.1 } fraction={0.5}> */}
+             {/* <Fade cascade damping={0.5} fraction={0.05} duration={500}>  */}
+
+
+           
+                   <div className='md:flex gap-2 md:gap-5'>
+                  
+                    <div>
+                    <Fade cascade damping={1} fraction={1} duration={100}> 
+                    <SkillsCard skillname='HTML' icon={<img src={html}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0  p-1 text-start' /> }/>
+                <SkillsCard skillname='CSS' icon={<img src={css}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0 p-1 ' /> }/>
+                <SkillsCard skillname='JavaScript' icon={<img src={js}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row p-1 pt-0 text-start ' /> }/>
+                <SkillsCard skillname='Typescript' icon={<img src={ts}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0  p-1' /> }/>
+            
+                <SkillsCard skillname='Tailwind CSS' icon={<img src={tailwind}  alt="pc-two gif" className='w-[40px] h-[30px] flex-row  pt-0 p-1 ' /> }/>
+               
+                <SkillsCard skillname='React Js' icon={<img src={react}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0 p-1 ' /> }/>
+                <SkillsCard skillname='React Native' icon={<img src={react}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0 p-1 ' /> }/>    
+                <SkillsCard skillname='Bash Script' icon={<img src={git}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0 p-1 ' /> }/>
+         
+                <SkillsCard skillname='Git & GitHub' icon={<img src={github}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0 p-1 ' /> }/>
+                <SkillsCard skillname='Figma' icon={<img src={figma}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0 p-1 ' /> }/>
+             
+               
+                
+
+                </Fade >  
+                    </div>
+
+
+
+
+                    
+                    <div>  
+               
+                <Fade cascade damping={1} fraction={0.5} duration={200}>  
+         
+                <SkillsCard skillname='Adobe Photoshop' icon={<img src={ps}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0 p-1 ' /> }/>
+                 <SkillsCard skillname='Adobe Illustrator' icon={<img src={ai}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0 p-1 ' /> }/> 
+                <SkillsCard skillname='Restful APIs' icon={<img src={rest}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0 p-1 ' /> }/>
+                <SkillsCard skillname='Firebase' icon={<img src={fire}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0 p-1 ' /> }/>
+                <SkillsCard skillname='Appwrite' icon={<img src={appwrite}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0 p-1 ' /> }/>
+                <SkillsCard skillname='postgreSQL' icon={<img src={post}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0 p-1 ' /> }/>
+                {/* <SkillsCard skillname='MongoDB' icon={<img src={mongo}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0 p-1 ' /> }/> */}
+                   
+                <SkillsCard skillname='Express Js' icon={<img src={ex}  alt="pc-two gif" className='w-[35px] h-[30px] flex-row  pt-0 p-1 ' /> }/>
+                <SkillsCard skillname='Node Js' icon={<img src={node}  alt="pc-two gif" className='w-[40px] h-[35px] flex-row  pt-0 p-1 ' /> }/>
+                </Fade > 
+                    </div> 
+                  
+
+
+
+
+
+               
+                   </div>
+              
+           
+
+
+
+
+
+                   
             </div>
         </div>
                 

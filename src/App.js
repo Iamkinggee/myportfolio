@@ -6,6 +6,8 @@ import Skills from './components/PagesFolder/Skills'
  import HomePage from './components/PagesFolder/HomePage';
 import About from './components/PagesFolder/About'
 import Projects from './components/ProjectFolder/Projects';
+import Services from './components/Services/Services';
+
 
 
 
@@ -18,9 +20,11 @@ const App = () => {
     <HomePage/>
    <About />   
    <Skills/>
+   <Services/>
     <Projects/>
     <ContactPage/>  
-    <NavBar/>   
+    <NavBar/>  
+   
     </div> 
 
 

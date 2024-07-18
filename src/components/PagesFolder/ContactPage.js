@@ -1,6 +1,6 @@
 
 import React from 'react'
-import {Fade } from "react-awesome-reveal";
+import {Fade,Slide } from "react-awesome-reveal";
 import Footer from '../Footer';
 import {FaLinkedin,FaEnvelope,FaWhatsapp} from 'react-icons/fa'
 import Form from '../Form'
@@ -30,9 +30,9 @@ const ContactPage = () => {
          <div className='grid md:grid-cols-2 w-full  items-center justify-center   '>
 
 <div className=' md:w-full'>
-<Fade cascade damping={0.1} fraction={0.5}>
+<Slide >
  <Form/>
-</Fade>
+</Slide>
 </div>
 
 
@@ -41,7 +41,7 @@ const ContactPage = () => {
 
 
 <div className='   pb-5 font-[LexendZetta] font-semibold text-[15px] text-white ' >
- <Fade cascade damping={0.1} fraction={0.5}>
+<Fade cascade damping={1} fraction={0.5} duration={200}> 
 <p className='md:text-[16px] text-[12px] font-light font-[LexendZetta] text-center text-blue-500'><span  className='text-white ' id='text-blue'>EMAIL: 
 <br />
 </span> iamgodsentt@gmail.com</p>

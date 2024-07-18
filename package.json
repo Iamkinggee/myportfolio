@@ -2,7 +2,7 @@
  
  
  
-  "name": "portfolio",
+  "name": "godsentokoose",
  
  
  
@@ -43,6 +43,20 @@
  
  
   "@testing-library/user-event": "^13.5.0",
+ 
+ 
+ 
+   
+ 
+ 
+  "@vercel/analytics": "^1.2.2",
+ 
+ 
+ 
+   
+ 
+ 
+  "@vercel/speed-insights": "^1.0.10",
  
  
  

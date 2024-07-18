@@ -90,11 +90,26 @@
 color: rgb(32, 32, 32);
 }
 
+ /* #toggleforservices{
+   
+    background: rgb(27, 27, 33);
+} */
+
 /* .light-theme-variables h1{
     color:black;
 } */
 
-.light-theme-variables #text-white{
+/* services */
+.light-theme-variables #bg-white{
+    background-color:var(--whity-color);
+    
+   }
+
+
+
+
+
+.light-theme-variables #text-white {
     color:rgb(255, 255, 255);
 }
 
@@ -106,7 +121,7 @@ color: rgb(32, 32, 32);
  color:rgb(37, 37, 37);
 }
 .light-theme-variables #text-title{
- color:rgb(117, 117, 117);
+ color:rgb(56, 56, 56);
 }
 
 

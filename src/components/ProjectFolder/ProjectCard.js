@@ -1,5 +1,5 @@
 import React from 'react'
-import { Fade } from "react-awesome-reveal";
+import { Fade,Bounce, Slide } from "react-awesome-reveal";
 import { Link } from 'react-router-dom';
 
 const ProjectCard = (props) => {
@@ -9,20 +9,20 @@ const ProjectCard = (props) => {
 
 <div className='w-full m-auto  pt-5  md:pr-10  '>
 
-<Fade cascade damping={0.1} fraction={0.5}>
+<Slide direction='left' > 
 {props.image}
-</Fade>
+</Slide>
 
 </div>
 <div className='   first-line: p-5 justify-center items-center m-auto shadow-md bg-opacity-100 rounded '>
 
-<Fade cascade damping={0.1} fraction={0.5}>
+<Fade cascade damping={1} fraction={0.5} duration={100}> 
    <h1 className=' text-xl md:text-4xl font-[LexendZetta] font-semibold  text-center md:text-start justify-center items-center   text-white' id='text-black' >{props.title}</h1>
    <hr id='titleLine' className='w-[220px] justify-center items-center m-auto mt-2 opacity-30 md:item-start md:justify-start md:m-0 md:mt-4'/>
    <div className='text-center md:text-start'>
    <p className='md:text-[18px] text-[13px]  font-semibold text-white font-[poppins]'>{props.subtext}</p>
    {/* <p className=' font-medium pb-5 py-4 text-white font-[poppins] text-[15px] text-start pl-2 md:pl-0  '> */}
-   <p className='  text-neutral-300 text-[12px] md:text-[15px] font-[Poppins] font-semibold tracking-wider text-start pb-5 py-4'>
+   <p className='  text-neutral-300 text-[12px] md:text-[15px] font-[Poppins] font-semibold tracking-wide text-start pb-5 py-4'>
     
     
     {props.discription}</p>
