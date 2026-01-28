@@ -90,7 +90,7 @@
 
 
 import React from 'react'
-import { Fadels, Slide } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 import { Link } from 'react-router-dom';
 
 const ProjectCard = (props) => {
