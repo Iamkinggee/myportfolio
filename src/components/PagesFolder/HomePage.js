@@ -24,10 +24,10 @@ const HomePage = () => {
          
          <div className='w-full pb-[120px] '>
          <Fade cascade damping={0.5} fraction={0.5} duration={200}> 
-            <h1 className=' text-[14px] font-[LexendZetta] font-[100px] text-center md:text-start justify-center items-center text-white ' id='text-black'>Howdy, <br /> Godsent here, i'm a</h1>
-            <h1 className='text-[30px] md:text-[50px]  font-bold opacity-15 leading-none text-center py-3 md:text-start text-white font-[LexendZetta] ' id='text-black'>Software <br />Developer.</h1>
+            <h1 className=' text-[25px] font-semibold font-[syne] text-center md:text-start tracking-widest justify-center items-center text-white ' id='text-black'>Howdy, i'm a</h1>
+            <h1 className='text-[30px] md:text-[60px]  font-extrabold opacity-15 leading-none text-center py-3 md:text-start text-white font-[syne]  ' id='text-black'>Software <br />Developer.</h1>
 
-            <div className='font-[LexendZetta] font-bold text-blue-500 text-center md:text-start'    > 
+            <div className='font-[syne]  font-bold text-blue-500 text-center md:text-start'    > 
             <TypeWriter/>
              </div>
            
@@ -36,7 +36,7 @@ const HomePage = () => {
             
 
               <ScrollLink to="contact" duration={500} smooth={true}>
-              <button className='border-2 border-blue-600 p-3 mt-3 font-semibold w-[300px] rounded bg-opacity-95 text-white cursor-pointer font-[LexendZetta] font-Light md:text-[14px] text-[11px] hover:scale-105 duration-300 shadow-lg' id='text-black'>Lets Talk</button> 
+              <button className='border-2 border-blue-600 p-3 mt-3 font-semibold w-[300px] rounded bg-opacity-95 text-white cursor-pointer font-[syne] font-Light md:text-[20px] text-[16px] hover:scale-105 duration-300 shadow-lg' id='text-black'>Lets Talk</button> 
               </ScrollLink>
            
                    

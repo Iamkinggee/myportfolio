@@ -19,12 +19,12 @@ import todoo from '../../assets/todoo.png'
 const Projects = () => {
   return (
   
-        <div className='w-full font-[LexendZetta]' id='works'>
+        <div className='w-full font-[syne] ' id='works'>
     <div className=' max-w-[1000px]  font-mono text-black m-auto  '>
  
     <h1 className='font-bold text-neutral-500 
     
-    text-[30px] sm:text-center md:text-[50px]  font-[LexendZetta] text-center md:text-center 
+    text-[30px] sm:text-center md:text-[50px]  font-[syne] front-extrabold text-center md:text-center 
     pt-20  'id='text-title'>Projects</h1>
     <p className='pb-10  text-center font-[LexendZetta]  md:text-[20px] text-[13px] text-white  '>These are some of my  <br/>latest Projects.</p>
 

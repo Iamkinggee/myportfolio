@@ -17,7 +17,7 @@ function Services() {
       
     <h1 className='font-bold  text-neutral-500 
     
-    text-[30px] sm:text-center md:text-[45px] font-[LexendZetta]  text-center md:text-center 
+    text-[30px] sm:text-center md:text-[50px] font-[syne]  text-center md:text-center 
     pt-20 pb-[25px]  'id='text-title'><span className='text-gray-700/70'>my</span>Services</h1>
 
 

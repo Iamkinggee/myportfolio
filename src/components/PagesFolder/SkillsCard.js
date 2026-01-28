@@ -8,7 +8,7 @@ function SkillsCard(props) {
 
    <div className='flex  '>
    {props.icon}
-        <p className='w-full m-auto text-start text-[13px]'>
+        <p className='w-full m-auto text-start text-[16px] p-3'>
             {props.skillname}
         </p>
        

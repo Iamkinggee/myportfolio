@@ -20,12 +20,12 @@ const ContactPage = () => {
          <div>
        
    
-         <h1 className='font-bold  text-neutral-500 
+         <h1 className='font-extrabold  text-neutral-500 
     text-[30px] sm:text-center md:text-[50px] text-center md:text-center 
-    mt-[30px] font-[LexendZetta]
+    mt-[30px] font-[syne] 
     ' id='text-title'>Contact</h1>
 
-         <p className='pb-5 font-[LexendZetta] py-2 text-center font-light md:text-[15px] text-[10px] text-white'>Got an Idea, Job or gig?<br /> Shoot me some lines.</p>
+         <p className='pb-5 font-[syne] py-2 text-center font-semibold md:text-[17px] text-[11px] text-white'>Got an Idea, Job or gig?<br /> Shoot me some lines.</p>
 
          <div className='grid md:grid-cols-2 w-full  items-center justify-center   '>
 
@@ -40,9 +40,9 @@ const ContactPage = () => {
 <div >
 
 
-<div className='   pb-5 font-[LexendZetta] font-semibold text-[15px] text-white ' >
+<div className='   pb-5 font-[syne] font-extrabold text-[15px] text-white ' >
 <Fade cascade damping={1} fraction={0.5} duration={200}> 
-<p className='md:text-[16px] text-[12px] font-light font-[LexendZetta] text-center text-blue-500'><span  className='text-white ' id='text-blue'>EMAIL: 
+<p className='md:text-[20px] text-[12px] font-semibold font-[syne] text-center text-blue-500'><span  className='text-white ' id='text-blue'>EMAIL: 
 <br />
 </span> iamgodsentt@gmail.com</p>
 

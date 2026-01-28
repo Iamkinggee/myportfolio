@@ -4,7 +4,7 @@ import {GoFileDirectory,GoHome} from 'react-icons/go'
 import{AiOutlineUser} from 'react-icons/ai'
 import {Link as ScrollLink} from 'react-scroll'
 import { FaHandshake } from "react-icons/fa6";
-import { Fade,Flip,Bounce,Hinge,JackInTheBox,Roll,rubberBand ,heartBeat } from "react-awesome-reveal";
+import { Bounce} from "react-awesome-reveal";
 
 
 
