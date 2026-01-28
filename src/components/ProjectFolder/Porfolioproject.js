@@ -25,14 +25,14 @@ const Porfolioproject = () => {
 <div className='   first-line: p-5 justify-center items-center m-auto  bg-opacity-100 rounded '>
 
 <Fade  cascade damping={0.1} fraction={0.5}>
-   <h1 className=' text-xl md:text-4xl font-syne font-semibold  text-center md:text-start justify-center items-center   text-white' id='text-black' >Portfolio Website</h1>
+   <h1 className=' text-xl md:text-4xl font-[LexendZetta] font-semibold  text-center md:text-start justify-center items-center   text-white' id='text-black' >Portfolio Website</h1>
    
    <hr id='titleLine' className='w-[220px] justify-center items-center m-auto mt-2 opacity-30 md:item-start md:justify-start md:m-0 md:mt-4'/>
    <div className='text-center md:text-start'>
   
-   <p className=' pb-5 py-4 text-white  font-syne text-[12px] text-center md:text-start pl-2 md:pl-0  tracking-wide md:text-[18px]  '>This is my Portfolio Website </p>
-   <p className='text-[12px] md:text-[16px] font-bold  font-syne  text-neutral-400 mt-3 pb-1'>Technologies Used:</p>
-   <p className='  font-syne md:text-[15px]  text-[16px]  text-blue-500' id='text-blue' >Javascript, Tailwind CSS, React.js</p>
+   <p className=' pb-5 py-4 text-white font-[poppins]  text-[16px] text-start pl-2 md:pl-0 font-semibold tracking-wide '>This is my Portfolio Website </p>
+   <p className='text-[12px] text-text-blue-200 font-[LexendZetta] font-light text-neutral-400 mt-3 pb-1'>Technologies Used:</p>
+   <p className=' font-[LexendZetta] font-semibold text-[10px]  text-blue-500' id='text-blue' >Javascript, Tailwind CSS, React.js</p>
    </div>
 
 
@@ -40,7 +40,7 @@ const Porfolioproject = () => {
 
     
      <Link to={'https://github.com/Iamkinggee/Portfolio.git'} target='_blank' rel='noopener noreferrer' >
-     <button className='rounded hover:scale-105 duration-300 shadow-lg  p-3 font- font-syne font-semibold w-[300px] bg-blue-600 text-white md:text-[18px] text-[11px]'>View Code</button>            
+     <button className='rounded hover:scale-105 duration-300 shadow-lg  p-3 font-[LexendZetta] font-semibold w-[300px] bg-blue-600 text-white md:text-[14px] text-[11px]'>View Code</button>            
      </Link>
      
   

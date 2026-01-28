@@ -81,7 +81,7 @@ px-3 pb-2
 
             <GoFileDirectory  className=" h-5 w-5 mt-2 text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white" aria-hidden="true"/>
 
-            <span className="text-sm  text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white font-syne ">Works</span>
+            <span className="text-sm  text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white font-syne ">projects</span>
         </button>
         </ScrollLink>
 

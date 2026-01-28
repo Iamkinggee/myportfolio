@@ -9,20 +9,24 @@ import Movie from '../../assets/Movie.png'
 import natsentpix from '../../assets/natsentpix.png'
 import paypoint from '../../assets/paypoint.png'
 import oops from '../../assets/oops.png'
+import audiophile from '../../assets/audiophile.png'
+import KingsTicket from '../../assets/KingsTicket.png'
+import borngreat from '../../assets/borngreat.png'
+import todoo from '../../assets/todoo.png'
 
 
 
 const Projects = () => {
   return (
   
-        <div className='w-full font-syne' id='works'>
+        <div className='w-full font-[LexendZetta]' id='works'>
     <div className=' max-w-[1000px]  font-mono text-black m-auto  '>
  
-    <h1 className='font-bold  text-neutral-500 
+    <h1 className='font-bold text-neutral-500 
     
-    text-[30px] sm:text-center md:text-[50px]  font-syne text-center md:text-center 
-    pt-20  'id='text-title'>Works</h1>
-    <p className='pb-10  text-center font-semibold md:text-[20px] text-[13px] text-white  font-syne'>These are some of my  <br/>latest Projects.</p>
+    text-[30px] sm:text-center md:text-[50px]  font-[LexendZetta] text-center md:text-center 
+    pt-20  'id='text-title'>Projects</h1>
+    <p className='pb-10  text-center font-[LexendZetta]  md:text-[20px] text-[13px] text-white  '>These are some of my  <br/>latest Projects.</p>
 
 <div >
 
@@ -39,25 +43,35 @@ const Projects = () => {
 
 
 
+    
+    <ProjectCard title='Audiophile' techtools='Next.js 16, Typescript, Tailwind CSS, Convex' discription='Audiophile is a premium e-commerce store specializing in high-end audio gear—including speakers, headphones, earphones, and accessories. The store features a modern UI, product categories, detailed product pages, cart and checkout flow, and a responsive layout designed for a smooth shopping experience across all devices. ' visitsitebutton='Visit Site' viewcodebutton='View Code'  image={<img  loading='lazy' src={audiophile} alt="/"  className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent'  />} visitsitelink={'https://hng13-task3-a.vercel.app/'} viewcodelink={'https://github.com/Iamkinggee/Hng13Task3A.git'} />
+    
+    <ProjectCard title='Born-great daycare' techtools='Next.js 16, Typescript, Tailwind CSS, Convex' discription='Born-great daycare website is a real running business website for children daycare services.' visitsitebutton='Visit Site' viewcodebutton='View Code'  image={<img  loading='lazy' src={borngreat} alt="/"  className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent'  />} visitsitelink={'https://borngreatdaycare.vercel.app/'} viewcodelink={'https://github.com/Iamkinggee/born-great-Daycare.git'} />
+
+
+
     <ProjectCard title='Gee Movies' techtools='TMDB API, Javascript,React.js, Firebase, Tailwind CSS, ' discription='Gee Movies is a Fullstack free Movie platform, built with the TMDB API,ReactJS for the frontend and Firebase for the backend. Users can signup create account, select and save movies to their secured accounts ' visitsitebutton='Visit Site' viewcodebutton='View Code'  image={<img  loading='lazy' src={Movie} alt="/"  className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent'  />} visitsitelink={'https://geemovies.vercel.app/'} viewcodelink={'https://github.com/Iamkinggee/geemovies.git'} />
+
+
+      <ProjectCard title='KingsTickets' techtools='Vue, Tailwind CSS, ' discription='The Ticket Generator is a web application that creates personalized digital event tickets. Built with a modern UI and smooth form handling, the app makes ticket creation fast, intuitive, and visually appealing.' visitsitebutton='Visit Site' viewcodebutton='View Code'  image={<img  loading='lazy' src={KingsTicket} alt="/"  className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent'  />} visitsitelink={'https://hng13-task2-vueproject.vercel.app/'} viewcodelink={'https://github.com/Iamkinggee/Hng13Task2-vueproject.git'} />
 
 
 
     
     <ProjectCard title='Paypoint' techtools=' React Native,Javascript, Nativewind.' MobileApp="Mobile App" discription='This is a bill payment mobile app platform for airtime, data, electricity bill, tickets e.t.c (uncompleted)' visitsitebutton='Demo' viewcodebutton='View Code'  image={<img  loading='lazy' src={paypoint} alt="/"  className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent'  />} visitsitelink={'https://drive.google.com/file/d/1EJz2t3JgDZVdn8gN09z438wHSy0Cb9Pn/view?usp=drive_link'} 
-
-    
-
-    
     viewcodelink={'https://github.com/Iamkinggee/gtbank_app.git'}  />
 
 
 
 
-
-
-
     <ProjectCard title='Natsent iPhone Store' techtools='Javascript, Tailwind CSS, React.js' discription='Natsent iPhone Store is a one stop shop for all iPhone devices. ' visitsitebutton='Visit Site' viewcodebutton='View Code'  image={<img  loading='lazy' src={natsentpix} alt="/"  className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent'  />} visitsitelink={'https://natsent.vercel.app/'} viewcodelink={'https://github.com/Iamkinggee/natsent.git'} />
+
+
+    
+    
+    <ProjectCard title='Todo App' techtools='React Native,Javascript, Nativewind.' MobileApp="Mobile App" discription='A functional todo-app' visitsitebutton='Demo' viewcodebutton='View Code'  image={<img  loading='lazy' src={todoo} alt="/"  className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent'  />} visitsitelink={'https://drive.google.com/drive/folders/1J7dMQLA3SlUN_wDWinAwJuL_HFWnlEyY'} 
+    viewcodelink={'https://github.com/Iamkinggee/Hng13Task3B.git'}  />
+
 
 
 
@@ -75,7 +89,6 @@ const Projects = () => {
     <ProjectCard title='Amastore' techtools='Javascript, Tailwind CSS, React.js' discription='Amastore is an e-commerce store for shopping for different products.' visitsitebutton='Visit Site' visitsitelink={'https://amastore-mauve.vercel.app/'} viewcodebutton='View Code'  viewcodelink={'https://github.com/Iamkinggee/Amastore.git'} rel="noreferrer"  
     
     image={<img  loading='lazy' src={amastoreImage} alt="/" className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent' />}
-    // image={<video  autoPlay loop muted loading='lazy' src={AmastoreVideo2} alt="/" className='object-contain h-[250px]  m-auto w-[300px] md:h-[350px] md:w-[500px] bg-transparent p-0' />}
     
     /> 
 

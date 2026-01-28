@@ -1,5 +1,5 @@
 import React from 'react'
-import {BsTelephone,BsGear} from 'react-icons/bs'
+// import {BsTelephone,BsGear} from 'react-icons/bs'
 
 function ServicesCard(props) {
   return (
@@ -13,11 +13,11 @@ function ServicesCard(props) {
                 <div className=' gap-3 pt-5 justify-center items-center pb-3'>
                 {props.icons}
 
-                <h1 id='text-black' className='font-bold text-center pt-5 m-auto md:text-[20px]  text-[14px] text-white font-poppins font-semibold  '>
+                <h1 id='text-black' className='font-[LexendZetta]  text-center pt-5 m-auto md:text-[20px]  text-[14px] text-white font-bold  '>
                 {props.title}</h1>
 
                 </div >
-                <p className='tracking-wide leading-relaxed  pt-3 px-4 text-center text-[13px] md:text-[16px] font-normal font-syne text-white/60 ' > {props.text}</p>
+                <p className='tracking-wide leading-relaxed  pt-3 md:px-4 px-0 text-center text-[13px] md:text-[16px] font-semibold  text-white/60 font-[poppins] ' > {props.text}</p>
                 </div>
                 </div> 
 

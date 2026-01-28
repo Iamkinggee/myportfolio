@@ -1,5 +1,5 @@
 import React from 'react'
-import {BsTelephone,BsGear} from 'react-icons/bs'
+// import {BsTelephone,BsGear} from 'react-icons/bs'
 import ServicesCard from './ServicesCard'
 import { FaCode } from "react-icons/fa";
 import { TbDeviceMobileCode } from "react-icons/tb";
@@ -17,8 +17,9 @@ function Services() {
       
     <h1 className='font-bold  text-neutral-500 
     
-    text-[30px] sm:text-center md:text-[50px] font-syne  text-center md:text-center 
+    text-[30px] sm:text-center md:text-[45px] font-[LexendZetta]  text-center md:text-center 
     pt-20 pb-[25px]  'id='text-title'><span className='text-gray-700/70'>my</span>Services</h1>
+
 
 
 
@@ -26,7 +27,7 @@ function Services() {
 {/* <div className='grid md:grid-cols-3 gap-5 md:gap-5'> */}
 <div className=' grid md:grid-cols-2 gap-5  md:w-full '>
 <Fade cascade damping={0.5} fraction={0.05} duration={500}>
-<div className=' w-full'>
+<div className=' w-full '>
 
 <ServicesCard   icons={<FaCode className="w-10 h-10  m-auto  text-blue-600 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white" aria-hidden="true"/>} title="Web Development" text="Need a professional website that stands out? My web development services offer tailored solutions to bring your online presence to life. From sleek designs to seamless functionalities." />
 </div>
