@@ -44,20 +44,20 @@ const Skills = () => {
             <Fade  cascade damping={0.1}>
          <h1 className='  text-neutral-500 
          
-         text-[30px] sm:text-center md:text-[50px]  font-bold text-center md:text-start font-[LexendZetta] 
-         pt-20
+         text-[30px] sm:text-center  font-bold text-center md:text-start font-syne
+         pt-20 md:text-[50px]
          ' id='text-title'>TechStack</h1>
      
-            <p className='pb-2 py-2 md:text-start  text-white font-[LexendZetta] text-center md:text-[15px] text-[12px]'>I'm Proficient in but  not <br /> limited to these   Technologies.</p>
+            <p className='pb-2 py-2 md:text-start  text-white font-syne text-center  md:text-[20px] text-[12px]'>I'm Proficient in but  not <br /> limited to these   Technologies.</p>
             </Fade >
-        <div className='flex  pt-10 gap-10 pb-5 font-[LexendZetta]  font-light  text-blue-500 text-[15px] ' id='text-blue' >
+        <div className='flex  pt-10 gap-10 pb-5 font-syne font-semibold   text-blue-500 text-[15px] ' id='text-blue' >
             <div >
             {/* <Fade  cascade damping={0.1 } fraction={0.5}> */}
              {/* <Fade cascade damping={0.5} fraction={0.05} duration={500}>  */}
 
 
            
-                   <div className='md:flex gap-2 md:gap-5'>
+                   <div className='md:flex gap-2 md:gap-[100px] '>
                   
                     <div>
                     <Fade cascade damping={1} fraction={1} duration={100}> 

@@ -28,7 +28,7 @@ px-3 pb-2
         ">
      
          <GoHome className="mt-2 w-5 h-5  text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white" aria-hidden="true"/>
-         <span className="text-sm text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white   text-[10px]
+         <span className="text-sm text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white   text-[10px] font-syne
            
           
             ">Home</span>
@@ -44,7 +44,7 @@ px-3 pb-2
         ">
         
          <AiOutlineUser className=" mt-2 w-5 h-5  text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white" aria-hidden="true"/>
-            <span className="text-sm text-gray-500 dark:text-gray-400 group-hover:text-white  dark:group-hover:text-white  text-[10px]">About</span>
+            <span className="text-sm text-gray-500 dark:text-gray-400 group-hover:text-white  dark:group-hover:text-white  text-[10px] font-syne">About</span>
         </button>
         </ScrollLink>
 
@@ -56,7 +56,7 @@ px-3 pb-2
         ">
         
          <BsGear className="w-5 h-5 mt-2 text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white" aria-hidden="true"/>
-            <span className="text-sm text-gray-500 dark:text-gray-400 group-hover:text-white  dark:group-hover:text-white  text-[10px]">Skills</span>
+            <span className="text-sm text-gray-500 dark:text-gray-400 group-hover:text-white  dark:group-hover:text-white  text-[10px] font-syne">Skills</span>
         </button>
         </ScrollLink>
 
@@ -67,7 +67,7 @@ px-3 pb-2
         ">
       
          <FaHandshake className="w-5 h-5 mt-2 text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white" aria-hidden="true"/>
-            <span className="text-sm text-gray-500 dark:text-gray-400 group-hover:text-white  dark:group-hover:text-white  text-[10px] ">Services</span>
+            <span className="text-sm text-gray-500 dark:text-gray-400 group-hover:text-white  dark:group-hover:text-white  text-[10px] font-syne ">Services</span>
         </button>
         </ScrollLink>
 
@@ -81,7 +81,7 @@ px-3 pb-2
 
             <GoFileDirectory  className=" h-5 w-5 mt-2 text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white" aria-hidden="true"/>
 
-            <span className="text-sm  text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white  ">Works</span>
+            <span className="text-sm  text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white font-syne ">Works</span>
         </button>
         </ScrollLink>
 
@@ -95,7 +95,7 @@ px-3 pb-2
          border-t-2 border-transparent group focus:border-white 
         ">      
         <BsTelephone className="w-5 h-5 mt-2 text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white" aria-hidden="true"/>
-        <span className="text-sm text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white text-center">Contact</span>
+        <span className="text-sm text-gray-500 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white text-center font-syne">Contact</span>
         </button>
         </ScrollLink>
     </div>

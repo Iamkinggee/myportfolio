@@ -7,20 +7,22 @@ import CoinDuckoImage from '../../assets/CoinDuckoImage.png'
 import dataport from '../../assets/dataport.png'
 import Movie from '../../assets/Movie.png'
 import natsentpix from '../../assets/natsentpix.png'
+import paypoint from '../../assets/paypoint.png'
+import oops from '../../assets/oops.png'
 
 
 
 const Projects = () => {
   return (
   
-        <div className='w-full font-[LexendZetta]' id='works'>
+        <div className='w-full font-syne' id='works'>
     <div className=' max-w-[1000px]  font-mono text-black m-auto  '>
  
     <h1 className='font-bold  text-neutral-500 
     
-    text-[30px] sm:text-center md:text-[50px] font-[LexendZetta]  text-center md:text-center 
+    text-[30px] sm:text-center md:text-[50px]  font-syne text-center md:text-center 
     pt-20  'id='text-title'>Works</h1>
-    <p className='pb-10  text-center font-light md:text-[15px] text-[12px] text-white font-[LexendZetta]'>These are some of my  <br/>latest Projects.</p>
+    <p className='pb-10  text-center font-semibold md:text-[20px] text-[13px] text-white  font-syne'>These are some of my  <br/>latest Projects.</p>
 
 <div >
 
@@ -39,13 +41,33 @@ const Projects = () => {
 
     <ProjectCard title='Gee Movies' techtools='TMDB API, Javascript,React.js, Firebase, Tailwind CSS, ' discription='Gee Movies is a Fullstack free Movie platform, built with the TMDB API,ReactJS for the frontend and Firebase for the backend. Users can signup create account, select and save movies to their secured accounts ' visitsitebutton='Visit Site' viewcodebutton='View Code'  image={<img  loading='lazy' src={Movie} alt="/"  className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent'  />} visitsitelink={'https://geemovies.vercel.app/'} viewcodelink={'https://github.com/Iamkinggee/geemovies.git'} />
 
+
+
+    
+    <ProjectCard title='Paypoint' techtools=' React Native,Javascript, Nativewind.' MobileApp="Mobile App" discription='This is a bill payment mobile app platform for airtime, data, electricity bill, tickets e.t.c (uncompleted)' visitsitebutton='Demo' viewcodebutton='View Code'  image={<img  loading='lazy' src={paypoint} alt="/"  className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent'  />} visitsitelink={'https://drive.google.com/file/d/1EJz2t3JgDZVdn8gN09z438wHSy0Cb9Pn/view?usp=drive_link'} 
+
+    
+
+    
+    viewcodelink={'https://github.com/Iamkinggee/gtbank_app.git'}  />
+
+
+
+
+
+
+
     <ProjectCard title='Natsent iPhone Store' techtools='Javascript, Tailwind CSS, React.js' discription='Natsent iPhone Store is a one stop shop for all iPhone devices. ' visitsitebutton='Visit Site' viewcodebutton='View Code'  image={<img  loading='lazy' src={natsentpix} alt="/"  className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent'  />} visitsitelink={'https://natsent.vercel.app/'} viewcodelink={'https://github.com/Iamkinggee/natsent.git'} />
+
+
+
+    <ProjectCard title='oops Landing Page' techtools='Javascript, Tailwind CSS, React.js' discription='OOPS project is a simple landing page design' visitsitebutton='Visit Site' viewcodebutton='View Code'  image={<img  loading='lazy' src={oops} alt="/"  className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent'  />} visitsitelink={'https://oops-kappa.vercel.app/'} viewcodelink={''} />
 
 
    
 
 
-    <ProjectCard title='GT Bank Mobile App Clone' techtools=' React Native,Javascript, Nativewind.' discription='This is the Guaranty Trust Bank(GTB) Mobile App UI Clone ' visitsitebutton='Demo' viewcodebutton='View Code'  image={<img  loading='lazy' src={GTphoto} alt="/"  className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent'  />} visitsitelink={'https://drive.google.com/file/d/1uUj8zG22qIgRV9SskyGt08pN7tfve0iz/view?usp=drive_link'} viewcodelink={'https://github.com/Iamkinggee/gtbank_app.git'}  />
+    <ProjectCard title='GT Bank ' techtools=' React Native,Javascript, Nativewind.'  MobileApp="Mobile App" discription='This is the Guaranty Trust Bank(GTB) Mobile App UI Clone ' visitsitebutton='Demo' viewcodebutton='View Code'  image={<img  loading='lazy' src={GTphoto} alt="/"  className='  object-contain h-full p-3  m-auto w-full md:h-[350px] md:w-[500px] bg-transparent'  />} visitsitelink={'https://drive.google.com/file/d/1uUj8zG22qIgRV9SskyGt08pN7tfve0iz/view?usp=drive_link'} viewcodelink={'https://github.com/Iamkinggee/gtbank_app.git'}  />
 
 
 

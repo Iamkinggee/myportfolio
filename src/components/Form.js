@@ -63,7 +63,7 @@ function Form(){
   
     
     return (
-      <div className='w-full pb-10 m-auto justify-center items-center font-[poppins] text-[13px]'>
+      <div className='w-full pb-10 m-auto justify-center items-center font-syne text-[13px] md:text-[20px]'>
             <Toaster
           
           position='top-center'
@@ -88,7 +88,7 @@ function Form(){
   <div className='w-full '>
       <form onSubmit={handleSubmit} 
       ref={form}
-      className='w-[350px] text-center items-center justify-center m-auto  '>
+      className='w-[360px] md:w-full text-center items-center justify-center m-auto  '>
         <div className='w-full px-auto m-auto justify-center items-center'>
        
           <input
@@ -100,7 +100,7 @@ function Form(){
             onChange={handleInputChange}
             onBlur={validateForm}
           
-            className=' leading-tight  items-center m-auto justify-center text-[10px]  w-full p-2 border-b-[4px] border-black outline-none font-[LexendZetta]'
+            className=' leading-tight  items-center m-auto justify-center text-[10px] md:text-[18px]  w-full md:p-4 rounded-xl p-2 border  outline-blue-700/60 font-syne '
             placeholder='First Name :' 
 
           
@@ -117,8 +117,7 @@ function Form(){
             onChange={handleInputChange}
             onBlur={validateForm}
            
-
-            className=' leading-tight  items-center m-auto justify-center  w-full p-2 border-b-[4px] border-black outline-none font-[LexendZetta] text-[10px] '
+            className=' leading-tight  items-center m-auto justify-center text-[10px] md:text-[18px]  w-full md:p-4 rounded-xl p-2 border outline-blue-700/60 font-syne'
             placeholder='Email :' 
           />
         </div>
@@ -136,7 +135,7 @@ function Form(){
                    placeholder='Message...'
                  
                    
-                  className=' leading-tight  items-center m-auto justify-center   w-full p-2 border-b-[4px] border-black outline-none py-3 font-[LexendZetta] text-[10px]  '
+                   className=' leading-tight  items-center m-auto justify-center text-[10px] md:text-[18px]  w-full md:p-4 rounded-xl p-2  border  outline-blue-700/60 font-syne'
                    
                    >                   
                   </textarea>
@@ -146,12 +145,12 @@ function Form(){
   
   
        
-        <div className='w-full justify-center items-center m-auto'>
+        <div className='w-full justify-center items-center m-auto '>
         <button type="submit" 
   
   disabled={!isFormValid} 
   value="Send" 
-  className='bg-blue-700  rounded mt-2 font-semibold w-full h-10  hover:scale-105 duration-300 shadow-lg   text-white text-[12px] font-[LexendZetta]'
+  className='bg-blue-700   rounded mt-2 font-semibold w-full h-12 hover:scale-105 duration-300 shadow-lg   text-white md:text-[18px] text-[12px]  font-syne'
   onClick={notify}
 
  

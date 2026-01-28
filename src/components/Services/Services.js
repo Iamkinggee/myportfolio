@@ -13,18 +13,18 @@ function Services() {
   
     <div className='w-full ' id='services'>
 
-    <div className=' m-auto max-w-[700px] '>
+    <div className=' m-auto max-w-[1000px] '>
       
     <h1 className='font-bold  text-neutral-500 
     
-    text-[30px] sm:text-center md:text-[45px] font-[LexendZetta]  text-center md:text-center 
+    text-[30px] sm:text-center md:text-[50px] font-syne  text-center md:text-center 
     pt-20 pb-[25px]  'id='text-title'><span className='text-gray-700/70'>my</span>Services</h1>
 
 
 
 
 {/* <div className='grid md:grid-cols-3 gap-5 md:gap-5'> */}
-<div className='grid md:grid-cols-2 gap-5 md:gap-5'>
+<div className=' grid md:grid-cols-2 gap-5  md:w-full '>
 <Fade cascade damping={0.5} fraction={0.05} duration={500}>
 <div className=' w-full'>
 
