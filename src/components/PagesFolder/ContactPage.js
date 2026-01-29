@@ -55,11 +55,11 @@ const ContactPage = () => {
 <div className=' w-full '>
    <ul className='flex mr-10 space-x-10 cursor-pointer  text-gray-300 pt-5 justify-center items-center' >
   
-<div className='text-2xl text-white hover:scale-110 transition' id='text-blue'><a href="https://www.linkedin.com/in/godsent-oko-ose-0aab62277" target='_blank'><FaLinkedin/></a></div>
+<div className='text-2xl text-white hover:scale-110 transition' id='text-blue'><a href="https://www.linkedin.com/in/godsent-oko-ose-0aab62277" target='_blank'  rel="noreferrer"><FaLinkedin/></a></div>
 
 <div className='text-2xl text-white hover:scale-110 transition' id='text-blue'><a href='mailto:iamgodsentt@gmail.com'><FaEnvelope/></a></div>
 
-<div className='text-2xl text-white hover:scale-110 transition' id='text-blue'><a href="https://wa.me/+2348137906873" target='_blank'>
+<div className='text-2xl text-white hover:scale-110 transition' id='text-blue'><a href="https://wa.me/+2348137906873" target='_blank'  rel="noreferrer">
   <FaWhatsapp/>
   </a>
   </div>

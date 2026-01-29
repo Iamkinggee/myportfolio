@@ -13,11 +13,11 @@ function ServicesCard(props) {
                 <div className=' gap-3 pt-5 justify-center items-center pb-3'>
                 {props.icons}
 
-                <h1 id='text-black' className='font-[syne]   text-center pt-5 m-auto md:text-[20px]  text-[14px] text-white font-bold  '>
+                <h1 id='text-black' className='font-[syne]   text-center pt-5 m-auto md:text-[20px]  text-[16px] text-white font-bold  '>
                 {props.title}</h1>
 
                 </div >
-                <p className='tracking-wide leading-relaxed  pt-3 md:px-4 px-0 text-center text-[13px] md:text-[16px] font text-white/60 font-[syne]  ' > {props.text}</p>
+                <p className='tracking-wide leading-relaxed  pt-3 md:px-4 px-0 text-center text-[14px] md:text-[16px] font text-white/60 font-[syne]  ' > {props.text}</p>
                 </div>
                 </div> 
 

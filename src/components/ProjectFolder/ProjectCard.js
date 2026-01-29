@@ -110,7 +110,7 @@ const ProjectCard = (props) => {
 <Fade cascade damping={1} fraction={0.5} duration={100}> 
 
   <div className='flex space-x-2 justify-center md:justify-start '>
-   <h1 className=' text-xl md:text-4xl font-[syne] font-bold  text-center md:text-start justify-center    text-white' id='text-black' >{props.title}</h1>
+   <h1 className=' text-xl md:text-4xl font-[syne] font-extrabold  text-center md:text-start justify-center    text-white' id='text-black' >{props.title}</h1>
    <p className='bg-yellow-400 h-6 mt-1 p-1 justify-center text-center items-center text-[12px] font-semibold text-gray-600 font-syne rounded'>{props.MobileApp}</p> 
 </div>
 
@@ -118,9 +118,9 @@ const ProjectCard = (props) => {
 
    <hr id='titleLine' className='w-[220px] justify-center items-center m-auto mt-2 opacity-30 md:item-start md:justify-start md:m-0 md:mt-4'/>
    <div className='text-center md:text-start'>
-   <p className='md:text-[18px] text-[13px]  font-semibold text-white font-[poppins]'>{props.subtext}</p>
+   <p className='md:text-[18px] text-[15px]  font-semibold text-white font-[syne]'>{props.subtext}</p>
 
-   <p className='  text-neutral-300 text-[12px] md:text-[17px] font-[syne] tracking-wide leading-5 md:leading-7  justify-center md:text-start pb-5 py-4'>
+   <p className='  text-neutral-300 text-[15px] md:text-[17px] font-[syne] tracking-wide leading-5 md:leading-7  justify-center md:text-start pb-5 py-4'>
     
     
     {props.discription}</p>

@@ -1,10 +1,10 @@
 import React from 'react'
 import G2 from '../../assets/G2.gif'
-import duck from '../../assets/duck.png'
+// import duck from '../../assets/duck.png'
 import html from '../../assets/html.png'
 import css from '../../assets/css.png'
 import node from '../../assets/node.png'
-import mongo from '../../assets/mongo.png'
+// import mongo from '../../assets/mongo.png'
 import react from '../../assets/react.png'
 import ts from '../../assets/ts.png'
 import tailwind from '../../assets/tailwind.png'
@@ -19,11 +19,7 @@ import figma from '../../assets/figma.png'
 import ps from '../../assets/ps.png'
 import ai from '../../assets/ai.png'
 import post from '../../assets/post.png'
-
-
-
-import { Fade,Flip,Bounce,Hinge,JackInTheBox,Roll,rubberBand ,heartBeat } from "react-awesome-reveal";
-import SkillsIcons from './SkillsCard';
+import { Fade } from "react-awesome-reveal";
 import SkillsCard from './SkillsCard';
 
 
@@ -48,7 +44,7 @@ const Skills = () => {
          pt-20
          ' id='text-title'>TechStack</h1>
      
-            <p className='pb-2 py-2 md:text-start  text-white font-[syne] font-semibold text-center md:text-[18px] text-[12px]'>I'm Proficient in but  not <br /> limited to these   Technologies.</p>
+            <p className='pb-2 py-2 md:text-start  text-white font-[syne] font-semibold text-center md:text-[18px] text-[14px]'>I'm Proficient in but  not <br /> limited to these   Technologies.</p>
             </Fade >
         <div className='flex  pt-10 gap-10 pb-5 font-[syne]  font-semibold md:text-[20px]  text-blue-500 text-[15px] ' id='text-blue' >
             <div >

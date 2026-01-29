@@ -36,7 +36,7 @@ const HomePage = () => {
             
 
               <ScrollLink to="contact" duration={500} smooth={true}>
-              <button className='border-2 border-blue-600 p-3 mt-3 font-semibold w-[300px] rounded bg-opacity-95 text-white cursor-pointer font-[syne] font-Light md:text-[20px] text-[16px] hover:scale-105 duration-300 shadow-lg' id='text-black'>Lets Talk</button> 
+              <button className='border-2 border-blue-600 p-3 mt-3  w-[300px] rounded bg-opacity-95 text-white cursor-pointer font-[syne] font-Light md:text-[20px] text-[16px] hover:scale-105 duration-300 shadow-lg font-bold' id='text-black'>Hire Me</button> 
               </ScrollLink>
            
                    

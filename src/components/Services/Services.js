@@ -5,7 +5,7 @@ import { FaCode } from "react-icons/fa";
 import { TbDeviceMobileCode } from "react-icons/tb";
 import { ImFilePicture } from "react-icons/im";
 import { FaHandshake } from "react-icons/fa6";
-import { Fade,Flip,Bounce,Hinge,JackInTheBox,Roll,rubberBand ,heartBeat } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function Services() {
   return (
