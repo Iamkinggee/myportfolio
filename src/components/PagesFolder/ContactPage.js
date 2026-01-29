@@ -42,9 +42,9 @@ const ContactPage = () => {
 
 <div className='   pb-5 font-[syne] font-extrabold text-[15px] text-white ' >
 <Fade cascade damping={1} fraction={0.5} duration={200}> 
-<p className='md:text-[20px] text-[12px] font-semibold font-[syne] text-center text-blue-500'><span  className='text-white ' id='text-blue'>EMAIL: 
+<p className='md:text-[20px] text-[12px] font-semibold font-[poppins] text-center text-blue-500'><span  className='text-white ' id='text-blue'>EMAIL: 
 <br />
-</span> iamgodsentt@gmail.com</p>
+</span> Godsentokoose1@gmail.com</p>
 
 <div className='p-5' id='text-black'>
 <hr className='opacity-10'  />
@@ -57,7 +57,7 @@ const ContactPage = () => {
   
 <div className='text-2xl text-white hover:scale-110 transition' id='text-blue'><a href="https://www.linkedin.com/in/godsent-oko-ose-0aab62277" target='_blank'  rel="noreferrer"><FaLinkedin/></a></div>
 
-<div className='text-2xl text-white hover:scale-110 transition' id='text-blue'><a href='mailto:iamgodsentt@gmail.com'><FaEnvelope/></a></div>
+<div className='text-2xl text-white hover:scale-110 transition' id='text-blue'><a href='mailto:Godsentokoose1@gmail.com'><FaEnvelope/></a></div>
 
 <div className='text-2xl text-white hover:scale-110 transition' id='text-blue'><a href="https://wa.me/+2348137906873" target='_blank'  rel="noreferrer">
   <FaWhatsapp/>

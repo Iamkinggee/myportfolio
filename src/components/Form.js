@@ -40,7 +40,8 @@ function Form(){
     const handleSubmit = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_zgs8pv5', 'template_yxgnvlf', form.current, 'R0l-7GvzuWc9QCLms')
+   
+      emailjs.sendForm('service_w1flcvw', 'template_j5axf74', form.current, 'HuiL27MEFmyYBG7EN')
       .then((result) => {
           console.log(result.text);
           console.log("message sent")
@@ -49,8 +50,7 @@ function Form(){
           console.log(error.text);
       
       });
-  
-  
+
   
     };
   
