@@ -325,6 +325,31 @@ const Projects = () => {
           />
 
           <ProjectCard
+            title='Todo App'
+            techtools='React Native, Javascript, Nativewind'
+            MobileApp="Mobile App"
+            discription='A functional todo-app'
+            visitsitebutton='Demo'
+            viewcodebutton='View Code'
+            image={<img loading='lazy' src={todoo} alt="todo-app" className='object-contain h-full p-3 m-auto w-full md:h-[350px] md:w-[500px] bg-transparent' />}
+            visitsitelink='https://drive.google.com/file/d/1yi9-052LP8RV6BSnly9TTXHorireCIac/view?usp=sharing'
+            viewcodelink='https://github.com/Iamkinggee/Hng13Task3B.git'
+          />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <ProjectCard
             title='Amastore'
             techtools='Javascript, Tailwind CSS, React.js'
             discription='Amastore is an e-commerce store for shopping for different products.'
