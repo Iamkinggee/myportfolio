@@ -172,6 +172,7 @@ import SAAS from '../../assets/SAAS.png'
 import Oasisportal from '../../assets/oasisportal.png'
 import aiagent from '../../assets/aiagent.png'
 import FT from '../../assets/FT.png'
+import vp from '../../assets/vp.png'
 
 const Projects = () => {
   return (
@@ -211,6 +212,16 @@ const Projects = () => {
             image={<img loading='lazy' src={audiophile} alt="Audiophile" className='object-contain h-full p-3 m-auto w-full md:h-[350px] md:w-[500px] bg-transparent' />}
             visitsitelink='https://hng13-task3-a.vercel.app/'
             viewcodelink='https://github.com/Iamkinggee/Hng13Task3A.git'
+          />
+          <ProjectCard
+            title='Voteportal'
+            techtools='Next.js, Typescript, Tailwind CSS, Supabase'
+            discription='VotePortal is a web-based voting platform that allows organizations, schools, and communities to create and manage secure online elections with real-time updates.'
+             visitsitebutton='Visit Site'
+            viewcodebutton='Demo'
+            image={<img loading='lazy' src={vp} alt="Audiophile" className='object-contain h-full p-3 m-auto w-full md:h-[350px] md:w-[500px] bg-transparent' />}
+            visitsitelink='https://votersportal-mu.vercel.app/'
+            viewcodelink='https://drive.google.com/drive/folders/1VWfw6a9AyAZ4H_anKHvt_ikf5CbMLnRP?usp=sharing'
           />
 
           <ProjectCard
@@ -274,7 +285,7 @@ const Projects = () => {
             visitsitebutton='Visit Site'
             viewcodebutton='View Code'
             image={<img loading='lazy' src={KingsTicket} alt="KingsTickets" className='object-contain h-full p-3 m-auto w-full md:h-[350px] md:w-[500px] bg-transparent' />}
-            visitsitelink='https://hng13-task2-vueproject.vercel.app/'
+            visitsitelink='https://hng13-task-2-react.vercel.app/'
             viewcodelink='https://github.com/Iamkinggee/Hng13Task2-vueproject.git'
           />
 
